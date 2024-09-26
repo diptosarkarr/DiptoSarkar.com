@@ -88,11 +88,12 @@ const About = () => {
                     ) : (
                         <div className='hero-avatar video-container'>
                             <video
+                                src='public/video/dipto-intro.mp4'
                                 onClick={toggleVideoHandler}
                                 autoPlay
                                 preload="none"
                             >
-                                <source src='/video/dipto-intro.mp4' type="video/mp4" />
+
                             </video>
                             <i onClick={toggleVideoHandler} className='play-icon fa-solid fa-circle-pause' />
                         </div>
