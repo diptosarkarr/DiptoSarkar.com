@@ -136,7 +136,7 @@ export const portfolioData = {
             projectTitle: 'API Development with Digistore24 Integration',
             slug: 'digistore24-api',
             description: `Cutting-edge API Development project leveraging 
-            the Digistore24 API, with a Node.js and Express.JS. 
+            the Digistore24 API, with Node.js and Express.JS. 
             This project underscores my ability to integrate complex payment and 
             product management systems, enabling seamless transactions and product 
             listings for online businesses.`,
