@@ -1,12 +1,6 @@
 /** @type {import('next').NextConfig} */
-const path = require('path')
+const path = require('path');
 
-// const nextConfig = {
-//   reactStrictMode: true,
-//   sassOptions: {
-//     includePaths: [path.join(__dirname, 'styles')],
-//   },
-// }
 module.exports = {
   webpack(config, options) {
     config.module.rules.push({
@@ -23,11 +17,15 @@ module.exports = {
 
     return config;
   },
-  exportPathMap: function () {
+  exportPathMap: async function (
+    defaultPathMap,
+    { dev, dir, outDir, distDir, buildId }
+  ) {
     return {
-      '/': { page: '/' }
+      '/': { page: '/' },
     };
-  }
+  },
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/<your-repo-name>' : '',
 };
 
 
