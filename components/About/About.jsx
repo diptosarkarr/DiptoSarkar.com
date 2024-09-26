@@ -88,7 +88,7 @@ const About = () => {
                     ) : (
                         <div className='hero-avatar video-container'>
                             <video
-                                src='/video/dipto-intro.mp4'
+                                src='../../public/video/dipto-intro.mp4'
                                 onClick={toggleVideoHandler}
                                 autoPlay
                                 preload="none"
