@@ -3,7 +3,14 @@ import Image from 'next/image'
 import Typewriter from 'typewriter-effect';
 import { aboutData } from './AboutData';
 
+
 const About = () => {
+    const [profileVideo, setProfileVideo] = useState(false);
+
+    const toggleVideoHandler = () => {
+        setProfileVideo(!profileVideo)
+    }
+
     const initialCounters = aboutData.skills.reduce((obj, skill) => {
         obj[skill.id] = 0;
         return obj;
@@ -57,23 +64,39 @@ const About = () => {
 
             <div className="row g-4 g-xl-5">
                 <div className="col-12 col-xl-4">
-                    {/* Hero Avatar */}
-                    <div className="hero-avatar">
-                        <Image src={aboutData.mainData.heroAvatar} alt="hero-avatar" placeholder="blur" />
-                        <div className="hero-avatar-text">
-                            <Typewriter
-                                options={{
-                                    strings: aboutData.mainData.typewriter,
-                                    cursor: '_',
-                                    autoStart: true,
-                                    loop: true,
-                                    delay: 50,
-                                    deleteSpeed: 15
-                                }}
+                    {!profileVideo ? (
+                        <div className="hero-avatar">
+                            <Image
+                                src={aboutData.mainData.heroAvatar}
+                                alt="hero-avatar"
+                                placeholder="blur"
                             />
+                            <i onClick={toggleVideoHandler} className='play-icon fa-regular fa-circle-play' />
+                            <div className="hero-avatar-text">
+                                <Typewriter
+                                    options={{
+                                        strings: aboutData.mainData.typewriter,
+                                        cursor: '_',
+                                        autoStart: true,
+                                        loop: true,
+                                        delay: 50,
+                                        deleteSpeed: 15,
+                                    }}
+                                />
+                            </div>
                         </div>
-                    </div>
-                    {/* end Hero Avatar */}
+                    ) : (
+                        <div className='hero-avatar video-container'>
+                            <video
+                                onClick={toggleVideoHandler}
+                                autoPlay
+                                preload="none"
+                            >
+                                <source src='/video/dipto-intro.mp4' type="video/mp4" />
+                            </video>
+                            <i onClick={toggleVideoHandler} className='play-icon fa-solid fa-circle-pause' />
+                        </div>
+                    )}
                 </div>
                 <div className="col-12 col-xl-8">
                     <h2 className="title-heading mb-4" data-backdrop-text={aboutData.mainData.title}>{aboutData.mainData.title2}</h2>

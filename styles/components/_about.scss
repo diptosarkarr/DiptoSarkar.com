@@ -1,0 +1,31 @@
+.hero-avatar img,video{
+    border: 3px solid black;
+}
+.play-icon{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    padding:2px;
+    top: 15px; /* Position near the top border */
+    left: 15px; /* Position near the left border */
+    font-size: 2.5rem; /* Adjust size as needed */
+    color: black; /* Icon color */
+    cursor: pointer; /* Pointer cursor on hover */
+    z-index: 10; /* Ensure it appears above other elements */
+}
+
+.video-container{
+   
+    border-radius: 50%; /* Make video round if desired */
+    width: 260px; /* Full width of container */
+    height: 260px; /* Maintain aspect ratio */
+    
+    
+    video{
+    border-radius: 50%; /* Make video round if desired */
+    width: 260px; /* Full width of container */
+    height: 260px; /* Maintain aspect ratio */
+    object-fit: cover;
+    }
+}
+
