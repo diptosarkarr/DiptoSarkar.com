@@ -78,13 +78,13 @@ export const portfolioData = {
             projectTitle: 'Business Website Development',
             slug: 'business-1',
             description: `Comprehensive Business Website, developed with a 
-            ReactJS front-end and Node.js back-end. This project exemplifies my commitment 
+            React.js front-end and Node.js back-end. This project exemplifies my commitment 
             to delivering high-performance, responsive, and user-friendly web applications. 
             The site integrates dynamic content management, offering seamless navigation 
             and an engaging user experience. By leveraging modern web development practices 
             and robust API structures, this project underscores our expertise in full-stack 
             development and custom solutions tailored to meet business needs.`,
-            keywords: 'Web Development, Business Website, ReactJS, Node.js, Full-Stack',
+            keywords: 'Web Development, Business Website, React.js, Node.js, Full-Stack',
             category: 'website',
             services: 'Full-Stack Development, API Integration',
             client: 'Cambridge Flair',
@@ -93,7 +93,7 @@ export const portfolioData = {
             mainImage: Business11,
             categories: [
                 { name: 'Web Development' },
-                { name: 'ReactJS' },
+                { name: 'React.js' },
                 { name: 'Node.js' },
                 { name: 'Business Solutions' }
             ],
@@ -106,7 +106,7 @@ export const portfolioData = {
             projectTitle: 'E-commerce Website Development',
             slug: 'e-commerce-website',
             description: `Step into the future of online retail with my state-of-the-art 
-            E-commerce Website, developed with a ReactJS front-end and Node.js back-end. 
+            E-commerce Website, developed with a React.js front-end and Node.js back-end. 
             This project highlights my expertise in creating scalable, high-performance 
             e-commerce solutions that are both user-friendly and feature-rich. With 
             dynamic product listings, secure payment integrations, and efficient order 
@@ -114,7 +114,7 @@ export const portfolioData = {
             modern web development practices and robust API structures are tailored to 
             meet the demanding needs of e-commerce businesses, enhancing customer 
             engagement and driving sales growth.`,
-            keywords: 'E-commerce, Web Development, ReactJS, Node.js, Online Retail',
+            keywords: 'E-commerce, Web Development, React.js, Node.js, Online Retail',
             category: 'website',
             services: 'Full-Stack Development, API Integration, Payment Gateway Integration, UI/UX Design',
             client: 'Quick Buy',
@@ -123,7 +123,7 @@ export const portfolioData = {
             mainImage: QuickBuy1,
             categories: [
                 { name: 'E-commerce' },
-                { name: 'ReactJS' },
+                { name: 'React.js' },
                 { name: 'Node.js' },
                 { name: 'Web Development' }
             ],
@@ -136,11 +136,11 @@ export const portfolioData = {
             projectTitle: 'API Development with Digistore24 Integration',
             slug: 'digistore24-api',
             description: `Cutting-edge API Development project leveraging 
-            the Digistore24 API, with Node.js and Express.JS. 
+            the Digistore24 API, with Node.js and Express.js. 
             This project underscores my ability to integrate complex payment and 
             product management systems, enabling seamless transactions and product 
             listings for online businesses.`,
-            keywords: 'API Development, Digistore24, ReactJS, Node.js, Payment Integration',
+            keywords: 'API Development, Digistore24, React.js, Node.js, Payment Integration',
             category: 'api',
             services: 'API Development, Payment Gateway Integration, Front-End Development, Back-End Development',
             client: 'NDA (Cannot Disclose)',
@@ -149,7 +149,7 @@ export const portfolioData = {
             mainImage: API11,
             categories: [
                 { name: 'API Development' },
-                { name: 'ReactJS' },
+                { name: 'React,js' },
                 { name: 'Node.js' },
                 { name: 'Payment Integration' }
             ],
