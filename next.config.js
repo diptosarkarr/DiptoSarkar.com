@@ -6,6 +6,7 @@ const path = require('path')
 //   sassOptions: {
 //     includePaths: [path.join(__dirname, 'styles')],
 //   },
+
 // }
 module.exports = {
   webpack(config, options) {
@@ -14,7 +15,7 @@ module.exports = {
       use: {
         loader: 'file-loader',
         options: {
-          publicPath: '/_next/static/videos/',
+          publicPath: '/DiptoSarkar.com/_next/static/videos/',
           outputPath: 'static/videos/',
           name: '[name].[ext]',
         },

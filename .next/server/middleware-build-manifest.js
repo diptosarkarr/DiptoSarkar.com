@@ -1,1 +1,34 @@
-self.__BUILD_MANIFEST={polyfillFiles:["static/chunks/polyfills-42372ed130431b0a.js"],devFiles:[],ampDevFiles:[],lowPriorityFiles:[],rootMainFiles:[],pages:{"/":["static/chunks/webpack-59c5c889f52620d6.js","static/chunks/framework-49c6cecf1f6d5795.js","static/chunks/main-e618b1edbb350739.js","static/chunks/pages/index-af9b014f8008947b.js"],"/_app":["static/chunks/webpack-59c5c889f52620d6.js","static/chunks/framework-49c6cecf1f6d5795.js","static/chunks/main-e618b1edbb350739.js","static/css/28453a340b3c3b2a.css","static/chunks/pages/_app-1d1eff77e7551656.js"],"/_error":["static/chunks/webpack-59c5c889f52620d6.js","static/chunks/framework-49c6cecf1f6d5795.js","static/chunks/main-e618b1edbb350739.js","static/chunks/pages/_error-77823ddac6993d35.js"],"/blog/[slug]":["static/chunks/webpack-59c5c889f52620d6.js","static/chunks/framework-49c6cecf1f6d5795.js","static/chunks/main-e618b1edbb350739.js","static/chunks/pages/blog/[slug]-635ed58e2f1c5f6d.js"],"/portfolio/[slug]":["static/chunks/webpack-59c5c889f52620d6.js","static/chunks/framework-49c6cecf1f6d5795.js","static/chunks/main-e618b1edbb350739.js","static/chunks/pages/portfolio/[slug]-320257f27a673900.js"]},ampFirstPages:[]},self.__BUILD_MANIFEST.lowPriorityFiles=["/static/"+process.env.__NEXT_BUILD_ID+"/_buildManifest.js",,"/static/"+process.env.__NEXT_BUILD_ID+"/_ssgManifest.js"];
+self.__BUILD_MANIFEST = {
+  "polyfillFiles": [
+    "static/chunks/polyfills.js"
+  ],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
+    ]
+  },
+  "ampFirstPages": []
+};
+self.__BUILD_MANIFEST.lowPriorityFiles = [
+"/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
+,"/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js",
+
+];
