@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Typewriter from 'typewriter-effect';
 import { aboutData } from './AboutData';
+import video from '../../public/video/dipto-intro.mp4'
 
 
 const About = () => {
@@ -88,7 +89,7 @@ const About = () => {
                     ) : (
                         <div className='hero-avatar video-container'>
                             <video
-                                src='../../public/video/dipto-intro.mp4'
+                                src={video}
                                 onClick={toggleVideoHandler}
                                 autoPlay
                                 preload="none"
