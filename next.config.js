@@ -15,7 +15,7 @@ module.exports = {
       use: {
         loader: 'file-loader',
         options: {
-          publicPath: '/DiptoSarkar.com/_next/static/videos/',
+          publicPath: '/_next/static/videos/',
           outputPath: 'static/videos/',
           name: '[name].[ext]',
         },
