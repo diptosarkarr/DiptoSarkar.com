@@ -1,42 +1,69 @@
-import Logo1 from '@/public/images/clients/client-1.jpg';
-import Logo2 from '@/public/images/clients/client-2.jpg';
-import Logo3 from '@/public/images/clients/client-3.jpg';
-import Logo4 from '@/public/images/clients/client-4.jpg';
-import Logo5 from '@/public/images/clients/client-5.jpg';
+import NodeJS from '@/public/images/technology/node-js.png';
+import Express from '@/public/images/technology/express-js.png';
+import ReactJS from '@/public/images/technology/react-js.png';
+import NextJS from '@/public/images/technology/next-js.png';
+import Redux from '@/public/images/technology/redux.png';
+import Tailwind from '@/public/images/technology/tailwind.png';
+import MongoDB from '@/public/images/technology/mongodb.png';
+import MySQL from '@/public/images/technology/mysql.png';
+import Firebase from '@/public/images/technology/firebase.png';
+
+
 
 
 export const clientsData = {
     mainData: {
-        title: "Clients",
-        title2: "Awesome Clients",
+        title: "Expertise",
+        title2: "My Expertise",
     },
     clients: [
 
         {
-            lightLogo: Logo3,
-            darkLogo: Logo3,
-            url: 'https://komomedia.io/',
+            lightLogo: NodeJS,
+            darkLogo: NodeJS,
+            url: '',
         },
         {
-            lightLogo: Logo4,
-            darkLogo: Logo4,
-            url: 'https://www.expertview.de/',
+            lightLogo: Express,
+            darkLogo: Express,
+            url: '',
         },
         {
-            lightLogo: Logo5,
-            darkLogo: Logo5,
-            url: 'https://www.webpirat.de/',
+            lightLogo: ReactJS,
+            darkLogo: ReactJS,
+            url: '',
         },
         {
-            lightLogo: Logo2,
-            darkLogo: Logo2,
-            url: 'https://www.quantonova.com/',
+            lightLogo: Redux,
+            darkLogo: Redux,
+            url: '',
         },
         {
-            lightLogo: Logo1,
-            darkLogo: Logo1,
-            url: 'https://www.cambridgeflair.co.uk/',
+            lightLogo: NextJS,
+            darkLogo: NextJS,
+            url: '',
         },
+        {
+            lightLogo: Tailwind,
+            darkLogo: NodeJS,
+            url: '',
+        },
+        {
+            lightLogo: MongoDB,
+            darkLogo: NodeJS,
+            url: '',
+        },
+        {
+            lightLogo: MySQL,
+            darkLogo: NodeJS,
+            url: '',
+        },
+        {
+            lightLogo: Firebase,
+            darkLogo: NodeJS,
+            url: '',
+        },
+
 
     ]
 };
