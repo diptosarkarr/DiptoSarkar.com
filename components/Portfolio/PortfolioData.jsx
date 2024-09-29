@@ -75,64 +75,6 @@ export const portfolioData = {
             ]
         },
         {
-            projectTitle: 'Business Website Development',
-            slug: 'business-1',
-            description: `Comprehensive Business Website, developed with a 
-            React.js front-end and Node.js back-end. This project exemplifies my commitment 
-            to delivering high-performance, responsive, and user-friendly web applications. 
-            The site integrates dynamic content management, offering seamless navigation 
-            and an engaging user experience. By leveraging modern web development practices 
-            and robust API structures, this project underscores our expertise in full-stack 
-            development and custom solutions tailored to meet business needs.`,
-            keywords: 'Web Development, Business Website, React.js, Node.js, Full-Stack',
-            category: 'website',
-            services: 'Full-Stack Development, API Integration',
-            client: 'Cambridge Flair',
-            duration: '200+ hours',
-            imageSrc: Business1Front,
-            mainImage: Business11,
-            categories: [
-                { name: 'Web Development' },
-                { name: 'React.js' },
-                { name: 'Node.js' },
-                { name: 'Business Solutions' }
-            ],
-            images: [
-                { image: Business12 },
-                { image: Business13 },
-            ]
-        },
-        {
-            projectTitle: 'E-commerce Website Development',
-            slug: 'e-commerce-website',
-            description: `Step into the future of online retail with my state-of-the-art 
-            E-commerce Website, developed with a React.js front-end and Node.js back-end. 
-            This project highlights my expertise in creating scalable, high-performance 
-            e-commerce solutions that are both user-friendly and feature-rich. With 
-            dynamic product listings, secure payment integrations, and efficient order 
-            management, the platform ensures an exceptional shopping experience. Our 
-            modern web development practices and robust API structures are tailored to 
-            meet the demanding needs of e-commerce businesses, enhancing customer 
-            engagement and driving sales growth.`,
-            keywords: 'E-commerce, Web Development, React.js, Node.js, Online Retail',
-            category: 'website',
-            services: 'Full-Stack Development, API Integration, Payment Gateway Integration, UI/UX Design',
-            client: 'Quick Buy',
-            duration: '300+ hours',
-            imageSrc: QuickBuyFront,
-            mainImage: QuickBuy1,
-            categories: [
-                { name: 'E-commerce' },
-                { name: 'React.js' },
-                { name: 'Node.js' },
-                { name: 'Web Development' }
-            ],
-            images: [
-                { image: QuickBuy2 },
-                { image: QuickBuy3 },
-            ]
-        },
-        {
             projectTitle: 'API Development with Digistore24 Integration',
             slug: 'digistore24-api',
             description: `Cutting-edge API Development project leveraging 
