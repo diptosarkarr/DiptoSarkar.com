@@ -7,7 +7,6 @@ export default function Home() {
         <>
             <Head>
                 <title>{mainData.websiteTitle}</title>
-                <
                 <meta name="description" content={mainData.description} />
                 <meta name="keywords" content={mainData.keywords} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
